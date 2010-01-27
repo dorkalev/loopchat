@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>VERY SIMPLE PROOF OF CONCEPT CHAT OVER THREADED MONGREL</title>
+  <head>
+  <body>
+    <h1>COMET CHAT OVER THREADED MONGREL</h1>
+    <form action="/love/sender" method="get" target="ko">
+      <div style="width: 200px; height: 100px; border: 1px solid black; overflow: auto" id="thread"><%= $msg %></div>
+      <input type="text" name="msg">
+      <input type="submit" value="submit" />
+    </form>
+    <div style="display: none">
+      <h1>poster</h1>
+      <iframe src="about:blank" name="ko"></iframe>
+
+      <h1>loader</h1>
+      <iframe src="/love/getter/<%=$msg%>" name="loader"></iframe>
+    </div>
+  </body>
+</html>

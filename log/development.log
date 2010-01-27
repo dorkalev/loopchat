@@ -1,0 +1,80 @@
+# Logfile created on Wed Jan 27 18:23:04 +0200 2010
+
+Processing LoveController#index (for 127.0.0.1 at 2010-01-27 18:23:06) [GET]
+Rendering love/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing LoveController#getter (for 127.0.0.1 at 2010-01-27 18:23:06) [GET]
+  Parameters: {"id"=>"- - - -"}
+Completed in 4910ms (View: 0, DB: 0) | 200 OK [http://localhost/love/getter/-%20-%20-%20-]
+
+
+Processing LoveController#getter (for 127.0.0.1 at 2010-01-27 18:23:11) [GET]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-27 18:23:11) [GET]
+  Parameters: {"id"=>"- - - -"}
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing LoveController#index (for 127.0.0.1 at 2010-01-27 18:23:14) [GET]
+Rendering love/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+Completed in 4918ms (View: 0, DB: 0) | 200 OK [http://localhost/love/getter/-%20-%20-%20-]
+
+
+Processing LoveController#getter (for 127.0.0.1 at 2010-01-27 18:23:16) [GET]
+  Parameters: {"id"=>"- - - -"}
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-27 18:23:16) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing LoveController#sender (for 127.0.0.1 at 2010-01-27 18:23:18) [GET]
+  Parameters: {"msg"=>"hello"}
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://localhost/love/sender?msg=hello]
+Completed in 2605ms (View: 0, DB: 0) | 200 OK [http://localhost/love/getter/-%20-%20-%20-]
+
+
+Processing LoveController#getter (for 127.0.0.1 at 2010-01-27 18:23:19) [GET]
+  Parameters: {"id"=>"- - - -"}
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://localhost/love/getter/-%20-%20-%20-]
+
+
+Processing LoveController#getter (for 127.0.0.1 at 2010-01-27 18:23:19) [GET]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-27 18:23:19) [GET]
+  Parameters: {"id"=>"hello"}
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-27 18:23:19) [GET]
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing LoveController#index (for 127.0.0.1 at 2010-01-27 18:23:52) [GET]
+Rendering love/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing LoveController#getter (for 127.0.0.1 at 2010-01-27 18:23:52) [GET]
+  Parameters: {"id"=>"- - - -"}
